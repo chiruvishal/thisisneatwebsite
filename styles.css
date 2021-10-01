@@ -1,0 +1,241 @@
+/* landing-page-css */
+
+#landing{
+    background-color: #1b9dff;
+}
+.nav-item{
+    font-size: 0.59rem;
+    letter-spacing: 0.65px;
+    font-weight: 630;
+    line-height: 1.375rem;
+    color: #fff;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.btn{
+    border-radius: 1.2rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: .5rem 1.5rem;
+}
+.neat-image{
+    width: 74px;
+    height: auto;
+}
+.background-img{
+    position: relative;
+  text-align: center;
+}
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .landing-text{
+      color: #fff;
+      font-size:3rem;
+      font-family: 'Nunito Sans', sans-serif;;
+      font-weight: 400;
+  }
+  .landing-paragraph{
+      color: #fff;
+      font-size: 1.3rem;
+      line-height: 2.125rem;
+      letter-spacing: .5px;
+      font-weight: 300;
+  }
+/* media query */
+
+  @media (max-width:1040px){
+      .landing-text{
+          font-size:1.5rem
+      }
+      .landing-paragraph{
+          font-size: 0.7rem;
+          line-height:1.02rem;
+          font-weight: 700;
+      }
+      .reviews-heading{
+          font-size: 2rem;
+      }
+      .landing-text{
+          display: none;
+      }
+  }
+ 
+
+a:link{
+    text-decoration: none;
+}
+#landing{
+    background-color: #1b9dff;
+    color: #fff;
+}
+.quote-allign{
+    position: relative;
+    margin-left: 80%;
+    padding-right: 5%;
+}
+.middle-text{
+    text-align: center;
+    padding:10% 15% 25%;
+    
+    
+}
+
+ /* our-services */
+
+#our-services{
+    text-align: center;
+}
+.middle-text2{
+    text-align: centre;
+    padding: 7% 15%;
+}
+.card-body{
+    text-align: left;
+}
+.card-link{
+    color: #1b9dff;
+}
+.services-cards{
+    padding: 0% 10% 0% 10%;
+}
+.card-title{
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    line-height: 2.125rem;
+    font-size: 1.125rem;
+}
+.card-text{
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    line-height: 1.4rem;
+    font-size: 0.7rem;
+}
+.card{
+    margin-bottom: 10%;
+}
+
+
+/* our-reviews */
+
+#our-reviews{
+    text-align: center;
+    padding-top: 7%;
+    padding-bottom: 4%;
+}
+.carousel-item{
+    padding: 7% 15%;
+}
+.icon1{
+    color:blue;
+}
+.reviews-heading{
+     font-size: 2.25rem;
+     font-family: 'Nunito', sans-serif;;
+     font-weight: lighter;
+}
+.review-p{
+    font-family: 'Nunito', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 300;
+    line-height: 2.125rem;
+    font-size: 1.125rem;
+}
+
+/* contact us */
+
+ul{
+    list-style-type: none;
+}
+#contact-us{
+    background-color: #2F2F2F;
+    color: #fff;
+    padding: 7% 15%;
+    font-size: 0.7em;
+    font-weight: 370;
+    letter-spacing: 0.5px;
+}
+.fweight{
+    font-weight: bold;
+}
+.services-padding{
+    padding-left: 22%;
+}
+li{
+    padding-bottom: 3%;
+    
+}
+.hr-margin{
+    margin-top: 8%;
+    margin-bottom: 8%;
+}
+.li-padding{
+    padding: 0;
+}
+.neat-logo{
+    color: #fff;
+    font-family: 'Satisfy', cursive;
+}
+.icon-spacing{
+    padding: 4px;
+}
+.responsive-spacing{
+    padding-top: 10px;
+}
+
+
+/* footer */
+
+.footer{
+    background-color:#252525;
+    color: #fff;
+    font-size: 0.7rem;
+    padding-left: 15% ;
+    padding-right: 10%;
+    text-decoration: none;
+}
+.fcontainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.fitem{
+    margin: 15px;
+    display:flex;
+    justify-content: center;
+}
+.fitem-1{
+    align-items: flex-start;
+    margin-right: 17%;
+}
+.fitem-5{
+    justify-content: flex-end;
+    margin-left: 25%;
+}
+
+/* extra-css */
+
+.card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+}
+
+.card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card h3{
+  font-weight: 600;
+}
+
